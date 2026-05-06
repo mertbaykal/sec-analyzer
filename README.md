@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/038b16e3-c8a4-4825-9b0a-5ae83fdfa468
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 SecAnalyzer is a web application that helps users understand password security and network exposure through an educational, dashboard-style interface.
 
@@ -20,7 +20,7 @@ SecAnalyzer is a web application that helps users understand password security a
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 sec-analyzer/
@@ -188,7 +188,7 @@ Visit: **http://localhost:5000/api/health**
 
 ---
 
-## 🔌 API Endpoints Reference
+## API Endpoints Reference
 
 ### Public (no auth needed)
 ```
@@ -242,7 +242,7 @@ Expected response:
 
 ---
 
-## 🎤 How to Present This to Your Professor
+## How to Present This to Your Professor
 
 ### Structure (10-minute demo)
 
@@ -287,7 +287,7 @@ Expected response:
 
 ---
 
-## 🔒 Security Notes (important for your report)
+## Security Notes (important for your report)
 
 1. **Passwords are never logged or stored** — only analyzed in memory and discarded
 2. **History stores masked passwords** (first 3 chars + bullets) — not the original
@@ -297,7 +297,7 @@ Expected response:
 
 ---
 
-## 🚀 Optional Enhancements (after MVP)
+## Optional Enhancements (after MVP)
 
 - [ ] Enable Have I Been Pwned API (code is already in `routes/password.js`, just uncomment)
 - [ ] Add rate limiting (`express-rate-limit`) to prevent brute force
@@ -308,7 +308,7 @@ Expected response:
 
 ---
 
-## 📦 Dependencies Summary
+## Dependencies Summary
 
 ### Backend
 | Package | Purpose |
