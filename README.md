@@ -64,7 +64,7 @@ sec-analyzer/
 
 ---
 
-## ⚡ Quick Start (Step-by-Step)
+## Quick Start (Step-by-Step)
 
 ### Prerequisites
 - **Node.js** v18+ → https://nodejs.org
