@@ -1,0 +1,43 @@
+/* src/App.css — Global styles for Security Analyzer */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@400;500;700;800&display=swap');
+
+:root {
+  --bg:          #0a0d12;
+  --surface:     #10151e;
+  --surface2:    #161d2a;
+  --border:      rgba(99, 220, 180, 0.12);
+  --border-bright: rgba(99, 220, 180, 0.3);
+  --accent:      #63dcb4;
+  --accent2:     #3b8cf8;
+  --danger:      #f04f4f;
+  --warn:        #f5a623;
+  --text:        #e8edf5;
+  --muted:       #6b7a96;
+  --mono:        'JetBrains Mono', monospace;
+  --sans:        'Syne', sans-serif;
+  --radius:      12px;
+  --radius-sm:   8px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border-bright); border-radius: 3px; }
+
+/* Global input reset */
+input, button { font-family: inherit; }
+button { cursor: pointer; }
+
+/* Utility */
+.mono { font-family: var(--mono); }
+.muted { color: var(--muted); }
+.accent { color: var(--accent); }
