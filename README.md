@@ -1,4 +1,4 @@
-# 🛡 SecAnalyzer — Web-Based Security Analyzer
+# SecAnalyzer — Web-Based Security Analyzer
 > University Project | Full-Stack Security Tool | React + Node.js + MongoDB
 
 https://github.com/user-attachments/assets/038b16e3-c8a4-4825-9b0a-5ae83fdfa468
