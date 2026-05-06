@@ -1,6 +1,8 @@
 # 🛡 SecAnalyzer — Web-Based Security Analyzer
 > University Project | Full-Stack Security Tool | React + Node.js + MongoDB
-<img width="687" height="455" alt="sec-analyzer" src="https://github.com/user-attachments/assets/14adde7a-d045-43c6-91b1-22ce1ddb3239" />
+
+https://github.com/user-attachments/assets/038b16e3-c8a4-4825-9b0a-5ae83fdfa468
+
 
 ---
 
