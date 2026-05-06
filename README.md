@@ -158,7 +158,7 @@ Visit: **http://localhost:5000/api/health**
 
 ---
 
-## 🧪 Example Data & Test Cases
+## Example Data & Test Cases
 
 ### Password Analyzer
 
@@ -242,37 +242,37 @@ Expected response:
 
 ---
 
-## How to Present This to Your Professor
+----------------------------------------------------
 
-### Structure (10-minute demo)
+### Structure 
 
-**1. Introduction (1 min)**
+**1. Introduction **
 > "SecAnalyzer is a full-stack security tool built with React, Node.js, and MongoDB.
 > It has three modules: password strength analysis, simulated network scanning,
 > and a history dashboard for authenticated users."
 
-**2. Architecture overview (1 min)**
+**2. Architecture overview **
 - Point to the folder structure
 - Explain: React frontend → calls Express REST API → reads/writes MongoDB
 - Mention: JWT auth, bcrypt password hashing, no plaintext passwords stored
 
-**3. Live Demo — Password Analyzer (3 min)**
+**3. Live Demo — Password Analyzer **
 - Type a weak password → show CRITICAL score, crack time "instantly"
 - Type a strong password → show STRONG score, entropy jump
 - Show the entropy visualization, criteria checklist, recommendations
 - Mention: "The entropy formula is `length × log₂(charset_size)` — standard information theory"
 
-**4. Live Demo — Network Scanner (2 min)**
+**4. Live Demo — Network Scanner **
 - Type `192.168.1.1`, select Full Scan, click Run
 - Walk through the port results, risk badges, service descriptions
 - Emphasize: "This is 100% simulated — no real packets are sent"
 
-**5. Auth + History (2 min)**
+**5. Auth + History **
 - Register with a test email
 - Save a password check
 - Show the history tab with masked passwords and metadata
 
-**6. Security practices used (1 min)**
+**6. Security practices used **
 - bcrypt hashing for stored passwords
 - JWT stateless authentication
 - Masked passwords in history (never store plain text)
@@ -330,4 +330,4 @@ Expected response:
 
 ---
 
-*Built as a university project. All network scanning is simulated — no real intrusive scanning is performed.*
+*Built as a university project... All network scanning is simulated —no real intrusive scanning is performed.*
