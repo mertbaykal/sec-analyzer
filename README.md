@@ -99,7 +99,7 @@ cp .env.example .env
 
 Open `.env` and set:
 ```
-PORT=5000
+PORT=5001
 MONGODB_URI=mongodb://localhost:27017/sec-analyzer
 JWT_SECRET=anyRandomLongStringHere123!
 NODE_ENV=development
@@ -129,7 +129,7 @@ Terminal 1 (backend):
 ```bash
 cd backend
 npm run dev
-# → Server running on http://localhost:5000
+# → Server running on http://localhost:5001
 ```
 
 Terminal 2 (frontend):
@@ -153,7 +153,7 @@ npm run dev          # starts both backend + frontend
 Visit: **http://localhost:3000**
 
 To verify the backend is working:
-Visit: **http://localhost:5000/api/health**
+Visit: **http://localhost:5001/api/health**
 → Should return `{"status":"ok"}`
 
 ---
@@ -214,7 +214,7 @@ DELETE /api/history           → clear all records
 
 ### Example: Analyze a password with curl
 ```bash
-curl -X POST http://localhost:5000/api/password/analyze \
+curl -X POST http://localhost:5001/api/password/analyze \
   -H "Content-Type: application/json" \
   -d '{"password": "Hello@123"}'
 ```
